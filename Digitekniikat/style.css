@@ -1,22 +1,45 @@
-/* taustan väri */
 .navbar-custom {
-    background-color: #ffb6c1;
+    background-color: #de425a;
 }
 
-/* tekstin väri */
+
 .navbar-custom .navbar-text {
-    color: #e6007f
+    color: #151515
 }
 
-/* linkin väri */
+
 .navbar-custom .navbar-nav .nav-link {
-    color: #ff69b4;
+    color: #0f0e0e;
 }
 
-/* aktiivisen & hover-linkin väri */
+
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #e6007f;
+    color: #aa347f;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-width: 800px;
+    max-height: 500px;
+    object-fit: contain;
+    margin: 0 auto;/
+}
+
+.carousel-inner {
+    padding: 20px 0;
+}
+
+.carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
@@ -30,4 +53,12 @@ body {
     border-radius: 10px;
     margin-top: 40px;
     text-align: center;
+
+}
+
+.bg-baby-blue {
+    background-color: #ADD8E6;
+    padding: 15px;
+    border-radius: 10px;
+
 }
