@@ -1,0 +1,33 @@
+/* taustan väri */
+.navbar-custom {
+    background-color: #ffb6c1;
+}
+
+/* tekstin väri */
+.navbar-custom .navbar-text {
+    color: #e6007f
+}
+
+/* linkin väri */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ff69b4;
+}
+
+/* aktiivisen & hover-linkin väri */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #e6007f;
+}
+
+body {
+    background-color: #f8c2d0;
+}
+
+.container.bg-blue {
+    background-color: #ADD8E6;
+    color: #333333;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+}
